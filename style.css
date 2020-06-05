@@ -1,0 +1,44 @@
+body {
+  background-color: #212121;
+}
+h1 {
+  text-align: center;
+  color: rgb(233, 199, 90);
+  margin-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+}
+.game {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 1rem auto;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.game:hover {
+  border-color: orange;
+}
+.game-img {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  background: pink;
+}
+.game-img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.game-title {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.game-title h2 {
+  text-align: center;
+  color: #666;
+  font-size: 5rem;
+}

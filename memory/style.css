@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #212121;
+  color: orange;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.menu {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 120px 300px 120px;
+  grid-template-rows: auto;
+  column-gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+#result {
+  margin: 0;
+  text-align: center;
+}
+.health-container {
+  padding: 0.5rem;
+  border: 1px solid #555;
+}
+.health {
+  height: 100%;
+  background: red;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  transition: all 0.3s linear;
+}
+
+button {
+  display: block;
+  height: 90%;
+  border: 1px solid orange;
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.grid img {
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+  border: 1px solid #555;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0 auto;
+}
