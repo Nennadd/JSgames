@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       cards[optionOneId].setAttribute("src", "images/blank.png");
       cards[optionTwoId].setAttribute("src", "images/blank.png");
-      healthPoints -= 25;
+      healthPoints -= 20;
       health.style.width = healthPoints + "%";
       health.textContent = healthPoints + "%";
     }
